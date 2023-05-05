@@ -1,0 +1,56 @@
+get A
+get B
+get C
+get D
+get E
+get F
+get G
+
+shl B 1
+shl C 2
+shl D 3
+shl E 4
+shl F 5
+shl G 6
+
+or A B
+or A C
+or A D
+or A E
+or A F
+or A G
+
+not A
+
+mov X A
+and X 1
+put X
+
+mov X A
+and X 2
+shr X 1
+put X
+
+mov X A
+and X 4
+shr X 2
+put X
+
+mov X A
+and X 8
+shr X 3
+put X
+
+mov X A
+and X 16
+shr X 4
+put X
+
+mov X A
+and X 32
+shr X 5
+put X
+
+and A 64
+shr A 6
+put A

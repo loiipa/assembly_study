@@ -1,0 +1,58 @@
+get A
+get B
+get C
+get D
+get E
+get F
+get G
+
+shl B 1
+shl C 2
+shl D 3
+shl E 4
+shl F 5
+shl G 6
+
+mov X A
+or X B
+or X C
+or X D
+or X E
+or X F
+or X G
+
+not X
+
+mov Z X
+shl Z 7
+shr Z 7
+put Z
+
+mov Z X
+shl Z 6
+shr Z 7
+put Z
+
+mov Z X
+shl Z 5
+shr Z 7
+put Z
+
+mov Z X
+shl Z 4
+shr Z 7
+put Z
+
+mov Z X
+shl Z 3
+shr Z 7
+put Z
+
+mov Z X
+shl Z 2
+shr Z 7
+put Z
+
+shl X 1
+shr X 7
+put X
